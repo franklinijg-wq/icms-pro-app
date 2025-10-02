@@ -1,0 +1,137 @@
+[
+  {
+    "uf": "AC",
+    "estado": "Acre",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "AL",
+    "estado": "Alagoas",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "AP",
+    "estado": "Amapá",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "AM",
+    "estado": "Amazonas",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "BA",
+    "estado": "Bahia",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "CE",
+    "estado": "Ceará",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "DF",
+    "estado": "Distrito Federal",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "ES",
+    "estado": "Espírito Santo",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "GO",
+    "estado": "Goiás",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "MA",
+    "estado": "Maranhão",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "MT",
+    "estado": "Mato Grosso",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "MS",
+    "estado": "Mato Grosso do Sul",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "MG",
+    "estado": "Minas Gerais",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "PA",
+    "estado": "Pará",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "PB",
+    "estado": "Paraíba",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "PR",
+    "estado": "Paraná",
+    "aliquota": 19.0
+  },
+  {
+    "uf": "PE",
+    "estado": "Pernambuco",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "PI",
+    "estado": "Piauí",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "RJ",
+    "estado": "Rio de Janeiro",
+    "aliquota": 20.0
+  },
+  {
+    "uf": "RN",
+    "estado": "Rio Grande do Norte",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "RS",
+    "estado": "Rio Grande do Sul",
+    "aliquota": 19.0
+  },
+  {
+    "uf": "RO",
+    "estado": "Rondônia",
+    "aliquota": 17.5
+  },
+  {
+    "uf": "RR",
+    "estado": "Roraima",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "SC",
+    "estado": "Santa Catarina",
+    "aliquota": 17.0
+  },
+  {
+    "uf": "SP",
+    "estado": "São Paulo",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "SE",
+    "estado": "Sergipe",
+    "aliquota": 18.0
+  },
+  {
+    "uf": "TO",
+    "estado": "Tocantins",
+    "aliquota": 18.0
+  }
+]
