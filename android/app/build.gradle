@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace ".icms_pro_app"
+    namespace "com.example.icms_pro_app"
     compileSdkVersion 34
 
     defaultConfig {
