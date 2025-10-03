@@ -18,16 +18,19 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.4.6
 
-flutter_launcher_icons:
+flutter_icons:
   android: true
   ios: false
   image_path: "assets/icons/app_icon.png"
 
 flutter_native_splash:
-  color: "#ffffff"
-  image: assets/icons/app_icon.png
   android: true
   ios: false
+  web: false
+  color: "#FFFFFF"
+  image: assets/icons/app_icon.png
 
-
- 
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
