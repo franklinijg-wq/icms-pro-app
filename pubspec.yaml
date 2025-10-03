@@ -34,7 +34,7 @@ flutter_native_splash:
   color: "#ffffff"        # cor de fundo
   image: assets/icons/app_icon.png  # caminho para o ícone
   android: true
-  ios: true
+  ios: false
 
 # Configuração dos ícones do app
 flutter_icons:
