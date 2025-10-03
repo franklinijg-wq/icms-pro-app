@@ -17,6 +17,8 @@ android {
 
     buildTypes {
         release {
+            // Usa a chave de debug por enquanto (para gerar o APK no Codemagic)
+            signingConfig signingConfigs.debug
             minifyEnabled false
             shrinkResources false
         }
@@ -24,5 +26,8 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
+// ESSA LINHA É OBRIGATÓRIA PARA O FLUTTER FUNCIONAR 🚀
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
