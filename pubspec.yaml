@@ -1,41 +1,32 @@
 name: icms_pro_app
-description: Aplicativo ICMS Pro em Flutter
-publish_to: 'none'
-
+description: Aplicativo para cálculo de alíquotas ICMS
+publish_to: 'none' 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  # Ícones do app (substitui flutter_icons antigo ❌)
-  flutter_launcher_icons: ^0.13.1
-
-  # Splash screen moderna
-  flutter_native_splash: ^2.4.0
-
-  # Exemplo de dependências comuns (pode ajustar conforme precisar)
-  http: ^1.1.0
-  shared_preferences: ^2.2.2
-  provider: ^6.0.5
+  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
 
 flutter_icons:
   android: true
   ios: false
-  image_path: "assets/icon.png"
+  image_path: "assets/icons/app_icon.png"
+  remove_alpha_ios: true
 
 flutter_native_splash:
   color: "#ffffff"
-  image: assets/splash.png
+  image: assets/icons/app_icon.png
   android: true
   ios: false
 
@@ -43,4 +34,4 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - assets/icons/app_icon.png
