@@ -15,7 +15,7 @@ workflows:
           flutter pub run flutter_native_splash:create
       - name: Generate App Icons
         script: |
-          flutter pub run flutter_launcher_icons:main
+          flutter pub run flutter_launcher_icons
       - name: Build APK
         script: |
           flutter build apk --release
