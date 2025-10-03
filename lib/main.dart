@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const ICMSProApp());
+  runApp(const MyApp());
 }
 
-class ICMSProApp extends StatelessWidget {
-  const ICMSProApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // remove a faixa de debug
-      title: 'ICMS Pro',
+      debugShowCheckedModeBanner: false,
+      title: 'ICMS Pro App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -27,14 +27,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("ICMS Pro"),
-        centerTitle: true,
+        title: const Text("ICMS Pro App"),
       ),
       body: const Center(
         child: Text(
-          "Bem-vindo ao aplicativo ICMS Pro!",
-          style: TextStyle(fontSize: 20),
-          textAlign: TextAlign.center,
+          "Aplicativo funcionando 🎉",
+          style: TextStyle(fontSize: 22),
         ),
       ),
     );
