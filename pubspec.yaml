@@ -1,6 +1,6 @@
 name: icms_pro_app
 description: Aplicativo ICMS Pro
-publish_to: "none"
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.9
 
 dev_dependencies:
   flutter_test:
@@ -23,8 +23,8 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/icons/app_icon.png"
 
-flutter:
-  uses-material-design: true
-
-  assets:
-    - assets/icons/app_icon.png
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/icons/app_icon.png
+  android: true
+  ios: true
